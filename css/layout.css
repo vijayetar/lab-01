@@ -22,9 +22,8 @@
   }
   main {
     height: 64.3%;
-    /* border: 1px solid pink; */
     display: inline-block;
-    overflow: scroll;
+    overflow: hidden;
     width: 79.1%;
   }
 
@@ -49,7 +48,7 @@
   }
 
   .squares {
-    width: 380px;
+    width: 50%;
     float:left;
   }
 
@@ -131,7 +130,4 @@
     line-height: 80px;
   }
 
-}
-
-@media (max-width: 480px) {
 }
