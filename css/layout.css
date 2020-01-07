@@ -22,19 +22,47 @@
   }
   main {
     height: 64.3%;
-    border: 1px solid pink;
-    overflow: hidden;
+    /* border: 1px solid pink; */
+    display: inline-block;
+    overflow: scroll;
+    width: 79.1%;
   }
 
   footer {
     float:right;
     width: 79.1%;
-    height: 21.4%;
+    height: 150px;
     border: 1px solid black;
     line-height: 80px;
   }
 
+  section {
+    overflow: hidden;
+  }
 
+  article {
+    float: left;
+    width: 50%;
+    height: 200px;
+    border: 1px solid black;
+    line-height: 200px;
+  }
+
+  .squares {
+    width: 380px;
+    float:left;
+  }
+
+  div {
+    float:left;
+    border: 1px solid black;
+    width: 50%;
+    height: 250px;
+    line-height: 250px;
+  }
+  #g_h {
+    float:right;
+  }
 
 }
 
@@ -100,7 +128,6 @@
   
   footer {
     border: 1px solid black;
-    /* height: 7.6%; */
     line-height: 80px;
   }
 
