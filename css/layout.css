@@ -1,15 +1,53 @@
-body { 
+@media all and (min-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+  body {background-color: lightcyan;
+    margin: auto;
+    width: 960px;
+    height: 700px;
+  }
+  header {
+    margin:auto;
+    border: 1px solid black;
+    height: 14.3%;
+    line-height: 100px;
+  }
+  aside {
+    float:left;
+    width: 200px;
+    border: 1px solid black;
+    height: 85.7%;
+    line-height: 600px;
+  }
+  main {
+    height: 64.3%;
+    border: 1px solid pink;
+    overflow: hidden;
+  }
+
+  footer {
+    float:right;
+    width: 79.1%;
+    height: 21.4%;
+    border: 1px solid black;
+    line-height: 80px;
+  }
+
+
+
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
+  * {
+    box-sizing: border-box;
+  }
   body {
     margin: auto;
     width: 480px;
     height: 1055px;
-    box-sizing: border-box;
   }
   header {
-    box-sizing: border-box;
     margin:auto;
     border: 1px solid black;
     height: 7.1%;
@@ -21,37 +59,31 @@ body {
     border: 1px solid black;
     height: 14.2%;
     line-height: 150px;
-    box-sizing: border-box;
 
   }
   main {
     height: 71%;
-    box-sizing: border-box;
 
   }
   section {
-    box-sizing: border-box;
-    margin:auto;
     height: 33.3%;
+    margin:auto;
     overflow: hidden;
   }
 
   article {
-    box-sizing: border-box;
     margin: auto;
     border: 1px solid black;
     height: 50%;
     line-height: 125px;
   }
   .squares {
-    box-sizing: border-box;
     margin: auto;
     width: 100%;
     line-height: 250px;
   }
   
   div {
-    box-sizing: border-box;
     border: 1px solid black;
     width: 50%;
     height: 100%;
@@ -67,7 +99,6 @@ body {
 
   
   footer {
-    box-sizing: border-box;
     border: 1px solid black;
     /* height: 7.6%; */
     line-height: 80px;

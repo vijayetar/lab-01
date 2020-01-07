@@ -3,6 +3,7 @@ body {
   background-color: aqua;
   border: 1px solid black;
   text-align: center;
+  margin: auto;
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
