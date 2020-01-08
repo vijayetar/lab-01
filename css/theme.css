@@ -45,67 +45,44 @@
 
 @media (min-width: 480px) and (max-width: 767px) {
   * {
-    box-sizing: border-box;
-  }
-  body {
-    margin: auto;
-    width: 480px;
-    height: 1055px;
+    background-color: white;
   }
   header {
-    margin:auto;
-    border: 1px solid black;
-    height: 7.1%;
-    line-height: 75px;
+    background-color: rgb(231, 231, 151);
 
   }
   aside {
-    margin:auto;
-    border: 1px solid black;
-    height: 14.2%;
-    line-height: 150px;
+    background-color: rgb(156, 235, 235);
 
   }
-  main {
-    height: 71%;
 
-  }
-  section {
-    height: 33.3%;
-    margin:auto;
-    overflow: hidden;
-  }
-
-  article {
-    margin: auto;
-    border: 1px solid black;
-    height: 50%;
-    line-height: 125px;
-  }
-  .squares {
-    margin: auto;
-    width: 100%;
-    line-height: 250px;
-  }
-  
-  div {
-    border: 1px solid black;
-    width: 50%;
-    height: 100%;
-  }
-
-  .float-left {
-    float: left;
-  }
-
-  .float-right {
-    float:right;
-  }
-
-  
   footer {
-    border: 1px solid black;
-    line-height: 80px;
+    background-color: rgb(158, 158, 223);
+
+  }
+
+  section article:first-child {
+    background-color: rgb(226, 202, 158);
+  }
+
+  section article:last-child{
+    background-color: rgb(145, 207, 209);
+  }
+
+  #e_f div:first-child{
+    background-color: rgb(155, 174, 231));
+  }
+
+  #e_f div:last-child{
+    background-color: rgb(215, 250, 164);
+  }
+
+  #g_h div:first-child{
+    background-color: rgb(252, 199, 208);
+  }
+
+  #g_h div:last-child{
+    background-color: rgba(148, 139, 139, 0.521);
   }
 
 }
