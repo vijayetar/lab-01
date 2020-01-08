@@ -1,0 +1,111 @@
+@media all and (min-width: 768px) {
+  * {
+    background-color: black;
+
+  }
+  header {
+    background-color: lightcyan;
+
+  }
+  aside {
+    background-color: rgb(233, 195, 180);
+
+  }
+
+  footer {
+    background-color: rgb(170, 170, 219);
+
+  }
+
+  section article:first-child {
+    background-color: rgb(207, 235, 207);
+  }
+
+  section article:last-child{
+    background-color: lightyellow;
+  }
+
+  #e_f div:first-child{
+    background-color: rgb(236, 216, 236);
+  }
+
+  #e_f div:last-child{
+    background-color: pink;
+  }
+
+  #g_h div:first-child{
+    background-color: rgb(238, 106, 106);
+  }
+
+  #g_h div:last-child{
+    background-color: rgb(235, 196, 158);
+  }
+
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: auto;
+    width: 480px;
+    height: 1055px;
+  }
+  header {
+    margin:auto;
+    border: 1px solid black;
+    height: 7.1%;
+    line-height: 75px;
+
+  }
+  aside {
+    margin:auto;
+    border: 1px solid black;
+    height: 14.2%;
+    line-height: 150px;
+
+  }
+  main {
+    height: 71%;
+
+  }
+  section {
+    height: 33.3%;
+    margin:auto;
+    overflow: hidden;
+  }
+
+  article {
+    margin: auto;
+    border: 1px solid black;
+    height: 50%;
+    line-height: 125px;
+  }
+  .squares {
+    margin: auto;
+    width: 100%;
+    line-height: 250px;
+  }
+  
+  div {
+    border: 1px solid black;
+    width: 50%;
+    height: 100%;
+  }
+
+  .float-left {
+    float: left;
+  }
+
+  .float-right {
+    float:right;
+  }
+
+  
+  footer {
+    border: 1px solid black;
+    line-height: 80px;
+  }
+
+}
