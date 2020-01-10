@@ -11,14 +11,12 @@
     margin:auto;
     border: 1px solid black;
     height: 14.3%;
-    line-height: 100px;
   }
   aside {
     float:left;
     width: 200px;
     border: 1px solid black;
     height: 85.7%;
-    line-height: 600px;
   }
   main {
     height: 64.3%;
@@ -32,7 +30,6 @@
     width: 79.1%;
     height: 150px;
     border: 1px solid black;
-    line-height: 80px;
   }
 
   section {
@@ -44,7 +41,6 @@
     width: 50%;
     height: 200px;
     border: 1px solid black;
-    line-height: 200px;
   }
 
   .squares {
@@ -57,7 +53,6 @@
     border: 1px solid black;
     width: 50%;
     height: 250px;
-    line-height: 250px;
   }
   #g_h {
     float:right;
@@ -70,6 +65,7 @@
     box-sizing: border-box;
   }
   body {
+    display: flexbox;
     margin: auto;
     width: 480px;
     height: 1055px;
@@ -77,20 +73,18 @@
   header {
     margin:auto;
     border: 1px solid black;
-    height: 7.1%;
-    line-height: 75px;
-
+    height: 7.5%;
   }
+
   aside {
     margin:auto;
     border: 1px solid black;
     height: 14.2%;
-    line-height: 150px;
 
   }
   main {
     height: 71%;
-
+    display: flexbox;
   }
   section {
     height: 33.3%;
@@ -102,32 +96,18 @@
     margin: auto;
     border: 1px solid black;
     height: 50%;
-    line-height: 125px;
   }
-  .squares {
-    margin: auto;
-    width: 100%;
-    line-height: 250px;
-  }
-  
+
   div {
     border: 1px solid black;
     width: 50%;
     height: 100%;
   }
 
-  .float-left {
-    float: left;
-  }
-
-  .float-right {
-    float:right;
-  }
-
   
   footer {
+    display: flexbox;
     border: 1px solid black;
-    line-height: 80px;
   }
 
 }

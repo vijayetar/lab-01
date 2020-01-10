@@ -1,9 +1,13 @@
 body { 
   box-sizing: border-box;
-  background-color: aqua;
+  background-color: rgb(230, 241, 241);
   border: 1px solid black;
   text-align: center;
   margin: auto;
+}
+
+@media (min-width: 767px) and (max-width: 960px) {
+  body {background-color: rgb(156, 184, 168);}
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
@@ -11,5 +15,5 @@ body {
 }
 
 @media (max-width: 480px) {
-  body {background-color: red;}
+  body {background-color: rgb(240, 217, 217);}
 }
